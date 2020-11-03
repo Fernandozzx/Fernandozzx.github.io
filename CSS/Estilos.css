@@ -1,0 +1,238 @@
+body{
+
+	background: #F7F9FA;
+    margin: 0;
+    padding: 0;
+    background: url(../img/Prueba1.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+
+
+
+  .Portada-box {
+    width: 100%;
+    height: 100px;
+    background: #213850;
+    color: white;
+    top: 0%;
+    left: 50%;
+    position: absolute;
+    background: url(../img/Barrita2.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+
+  .Imagen-Presentación {
+
+    width: 200px;
+    height: 250px;
+    background: #213850;
+    color: #fff;
+    top: 95%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background: url(../img/Fer.png) no-repeat center top;
+    background-size: cover;
+  
+
+  }
+
+
+.Yo{
+    width: 25%;
+    height: 20px;
+    background: transparent; 
+    color: #fff;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+
+
+.datos{
+
+    width: 25%;
+    height: 25%;
+    background: transparent; 
+    color: #fff;
+    top: 38%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+
+
+}
+
+.Yo .Letras-titulos{
+	    position: relative;
+        color: black;
+        width:120%;
+		height:100px;
+		margin:-25px;
+		top: -45px;
+
+}
+
+.datos .DatosPersonales{
+position: relative;
+color: black;
+width:110%;
+height:100px;
+margin:-25px;
+top:-35px ;
+
+
+}
+
+
+
+
+.Información {
+
+     width: 100%;
+    height: 200px;
+    background: transparent; 
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+
+}
+
+
+.Información .Enseño{
+position: relative;
+top: -53px;
+
+
+}
+
+
+
+.Informacion .Enseño .audios{
+position: relative;
+top: 30%;
+left: 500px;
+
+}
+
+
+.Información .Enseño .Tabla {
+position: relative;
+top: -20px;
+left: 5px;
+color: black;
+font-weight: bold;
+background-color: rgba(0,0,0,0.6);
+
+
+}
+
+.Portada-box .boton {
+
+    width: 40%;
+    height: 23%;
+    background: transparent; 
+    color: #fff;
+    top: 80%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+   
+
+}
+
+.Portada-box .boton input[type="text"] {
+
+   width: 40%;
+   height: 60%;
+    margin-bottom: 20px;
+
+}
+
+.Portada-box .boton input[type="submit"] {
+
+   width: 5%;
+    margin-bottom: 20px;
+
+}
+.Portada-box h2{
+
+    color: black;
+}
+
+
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+
